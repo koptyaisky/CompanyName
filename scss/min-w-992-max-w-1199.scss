@@ -1,0 +1,32 @@
+@import "_const.scss";
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.wrap {
+		width: 100%;
+ 	}
+ 	.feature-two, .feature-five {
+ 		margin-left: $mp * 4;
+ 		margin-right: $mp * 4;
+ 	}
+ 	.section-recognitio__icon img {
+ 		margin-right: $mp * 4.5;
+ 	}
+ 	.section-recognitio__icon img:nth-child(5) {
+ 		margin-right: $mp - 10;
+ 	}
+ 	.header__logo img:nth-child(2) {
+		display: $none;
+	}
+	.header__logo img:nth-child(3) {
+		display: $none;
+	}
+	.header__logo img:nth-child(1) {
+		margin-right: $mp * 4;
+		padding-left: $mp - 10;
+	}
+	.header__menu a {
+		margin-right: $mp * 2;
+	}
+	.header__menu_right {
+		margin-left: $mp * 7;
+	}
+}

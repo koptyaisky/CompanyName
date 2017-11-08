@@ -1,0 +1,69 @@
+//Font
+
+@mixin text ($size: 16px, $text: 'PT Sans') {
+	font-size: $size;
+  font-family: $text;
+}
+
+@mixin text-title ($size: 20px, $text: 'PT Sans Bold') {
+  font-size: $size;
+  font-family: $text;
+}
+
+$lH: 30px;
+$fW: bold;
+
+//Color
+
+$bgC: #fafafa;
+$colorW: #ffffff;
+$colorG: #8dc63f;
+$colorTitle: #19263f;
+$colorBr: #333333;
+$colorB: #1657ab;
+$colorBlack: #000000;
+$colorBorder: #80b450;
+
+//display
+
+$inl-bl: inline-block;
+$none: none;
+$block:  block;
+$inline: inline;
+
+//background
+
+@mixin bg ($image, $position: center center, $repeat: repeat-x) {
+	background-image: $image;
+	background-position: $position;
+	background-repeat: $repeat;
+}
+
+@mixin product ($image, $position: center 26px, $repeat: no-repeat) {
+  background-image: $image;
+  background-position: $position;
+  background-repeat: $repeat;
+}
+
+@mixin feature ($image, $position: center 6px, $repeat: no-repeat) {
+  background-image: $image;
+  background-position: $position;
+  background-repeat: $repeat;
+}
+
+@mixin bg-f ($position, $repeat: no-repeat, $image: url(../img/social.png)) {
+  background-position: $position;
+  background-repeat: $repeat;
+  background-image: $image;
+}
+
+//indents
+
+$mRL: -5000px;
+$pRL: 5000px;
+$mp: 10px;
+
+
+
+
+

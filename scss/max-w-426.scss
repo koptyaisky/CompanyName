@@ -1,0 +1,69 @@
+@import "_const.scss";
+@media screen and (max-width: 426px) {
+	.wrap {
+		width: 100%;
+ 	}
+ 	.product-two, .feature-five {
+		margin-left: $mp - 10;
+		margin-right: $mp - 10;
+	}
+	.section-recognitio__icon img {
+		margin-bottom: $mp * 3;
+	}
+	.header {
+		padding-top: $mp;
+	
+		.header__logo {
+			display: $block;
+		
+			img:nth-child(1) {
+				display: $none;
+			}
+			img:nth-child(2) {
+				display: $inline;
+			}
+			img:nth-child(3) {
+				float: right;
+				margin-top: $mp - 6;
+				display: $inline;
+			}
+		}
+		.header__menu {
+		display: $none;
+		text-align: right;
+		margin-top: $mp;
+	
+			a {
+				margin-right: $mp - 5;
+				font-size: $mp * 1.2;
+			}
+			.header__menu_right {
+				margin-left: $mp - 10;
+			}
+		}	
+	}
+	.title {
+		margin-top: $mp + 5;
+		margin-bottom: $mp + 5;
+		font-size: $mp * 3;
+	}
+	.header__text {
+		margin-bottom: $mp * 2.6;
+		font-size: $mp * 1.4;
+	}
+	footer .footer-wide .footer__menu {
+		margin-top: $mp * 3;
+		margin-bottom: $mp * 2.5;
+	
+		li:nth-child(1) {
+			margin-bottom: $mp;
+		}
+	}
+	footer .footer-wide .footer__text {
+		margin-top: $mp * 2.5;
+		margin-bottom: $mp * 2.5;
+	}
+	.header .menu_drop {
+	display: $inl-bl;
+	}
+}
