@@ -14,7 +14,7 @@
   padding: 0px;
   margin: 0px; }
 
-body {
+html, body {
   overflow-x: hidden;
   max-width: 100%; }
 
